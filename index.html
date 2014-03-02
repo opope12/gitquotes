@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<section id="quotes">
+	{% for post in site.posts %}
+	<article id="{{ post.title }}">
+
+		<a href="{{ post.url }}" title="{{ post.title }}">
+
+			<div class="quote"> {{ post.quote }} </div>
+			<div class="source"> {{ post.author }} </div>
+
+		</a>
+
+	</article>
+	{% endfor %}
+</section>

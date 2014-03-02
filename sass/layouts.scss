@@ -1,0 +1,80 @@
+// Imports
+@import url(http://weloveiconfonts.com/api/?family=entypo|openwebicons);
+
+/* entypo */
+[class*="entypo-"]:before {
+	font-family: 'entypo', sans-serif;
+}
+
+/* openwebicons */
+[class*="openwebicons-"]:before {
+	font-family: 'OpenWeb Icons', sans-serif;
+}
+
+
+// Variables
+
+// Mixins
+
+// Styles
+
+	// Base Styles
+	html {
+		font: {
+			family: "Helvetica Neue";
+			weight: 300;
+			color: #111;
+		}
+	}
+
+	// Header
+	header {
+		margin-top: 2em;
+		h1 {
+			font-weight: 300;
+			margin: 0;
+			a {
+				color: #111;
+				transition: .5s all;
+				-webkit-transition: .5s color;
+				&:hover {
+					color: #0080ff;
+				}
+			}
+		}
+		p {
+			margin: 0;
+			font-size: 1.2em;
+		}
+	}
+
+	// Quote List
+	#quotes {
+		padding-left: 20px;
+		article {
+			padding-bottom: 15px;
+		}
+	}
+	a {
+		text-decoration: none;
+	}
+	.quote {
+		color: #111;
+		font-size: 2em;
+	}
+	.source {
+		color: #aaa;
+		font-size: 15px;
+	}
+
+	// Quote Page
+	#quote_content {
+		text-align: center;
+		padding-top: 4em;
+		.quote {
+			font-size: 64px;
+		}
+		.source {
+			font-size: 32px;
+		}
+	}

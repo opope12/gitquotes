@@ -1,0 +1,52 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo|openwebicons);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif; }
+
+/* openwebicons */
+[class*="openwebicons-"]:before {
+  font-family: 'OpenWeb Icons', sans-serif; }
+
+html {
+  font-family: "Helvetica Neue";
+  font-weight: 300;
+  font-color: #111; }
+
+header {
+  margin-top: 2em; }
+  header h1 {
+    font-weight: 300;
+    margin: 0; }
+    header h1 a {
+      color: #111;
+      transition: .5s all;
+      -webkit-transition: .5s color; }
+      header h1 a:hover {
+        color: #0080ff; }
+  header p {
+    margin: 0;
+    font-size: 1.2em; }
+
+#quotes {
+  padding-left: 20px; }
+  #quotes article {
+    padding-bottom: 15px; }
+
+a {
+  text-decoration: none; }
+
+.quote {
+  color: #111;
+  font-size: 2em; }
+
+.source {
+  color: #aaa;
+  font-size: 15px; }
+
+#quote_content {
+  text-align: center;
+  padding-top: 4em; }
+  #quote_content .quote {
+    font-size: 64px; }
+  #quote_content .source {
+    font-size: 32px; }

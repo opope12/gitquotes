@@ -1,0 +1,4 @@
+gitquotes
+=========
+
+Quotes for deveopers.

@@ -1,3 +1,5 @@
 name: Git Quotes
 markdown: redcarpet
 pygments: true
+baseurl: "/quotes" # the subpath of your site, e.g. /blog/
+url: "http://owebboy.com" # the base hostname & protocol for your site
